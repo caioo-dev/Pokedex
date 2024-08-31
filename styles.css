@@ -1,0 +1,67 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container principal da Pokédex */
+.pokedex-container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #ef5350;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Cabeçalho da Pokédex */
+.pokedex-header {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a lista de Pokémon */
+.pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Estilos para cada card de Pokémon */
+.pokemon-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.pokemon-card h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0 5px;
+}
+
+.pokemon-card p {
+    font-size: 14px;
+    color: #666;
+}
